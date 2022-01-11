@@ -21,3 +21,9 @@ You can find the transparency setting under:
 # ⚠️ Notes
 
 - Purple Dark Glass is a dark theme only, using light mode will result in the default discord theme being used
+
+# 🧩 Recommended complementary projects
+
+- Plasma color theme: [Purple Dark Plasma Colors](https://github.com/D3SOX/Purple-Dark-Plasma-Colors)
+- VSCode theme: [SynthWave '84](https://github.com/robb0wen/synthwave-vscode)
+- GTK theme: [ZorinOS purple dark theme](https://github.com/ZorinOS/zorin-desktop-themes/tree/master/ZorinPurple-Dark)
