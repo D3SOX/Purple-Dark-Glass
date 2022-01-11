@@ -1,8 +1,8 @@
 <div align="center" justify="center">
 
-<h2> ❄️ Nordic Glass ❄️ </h2>
+<h2> 🔮 Purple Dark Glass 🔮 </h2>
 
-A Discord Nord Theme with Transparency in mind!
+A Discord theme inspired by the colors from the ZorinOS purple dark theme with transparency in mind!
 
 <img src="assets/screenshot.png">
 
@@ -10,13 +10,14 @@ A Discord Nord Theme with Transparency in mind!
 
 # 🔍 Transparency
 
-If you use powercord it is recommended to enable transparency.  
+If you use Powercord it is recommended to enable transparency.  
 You can find the transparency setting under:
 
 - User Settings
-  - Power Cord
-    - General Settings
+  - Powercord: General Settings
+    - Advanced Settings
       - Transparent Window
 
 # ⚠️ Notes
-- Nordic Glass is a dark theme only, using light mode will result in the default discord theme being used
+
+- Purple Dark Glass is a dark theme only, using light mode will result in the default discord theme being used

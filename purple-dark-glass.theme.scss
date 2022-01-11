@@ -1,10 +1,13 @@
 /*
- * @name Nordic Glass
- * @description A nordic discord theme with transparency
- * @author Curve
+ * @name Purple Dark Glass
+ * @description A transparent Discord theme with colors from the ZorinOS purple dark theme
+ * @author Curve, D3SOX
  * @version 1.0
  * @requires Glasscord>=0.0.5
 */
+
+/* Discord Server Columns */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
 
 /* Settings Icons */
 @import url("https://snappercord.github.io/Settings-Icons/source.css");
@@ -15,22 +18,18 @@
 /* Replace emojis */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/JoyPixels.css");
 
-$nord-0: #2e3440;
-$nord-1: #3b4252;
-$nord-2: #434c5e;
-$nord-3: #4c566a;
-$nord-4: #d8dee9;
+$nord-0: #1a181e;
+$nord-1: #221f26;
+$nord-2: #302b36;
+$nord-3: #7d718c;
+$nord-4: #d8c4f1;
 $nord-5: #e5e9f0;
 $nord-6: #eceff4;
-$nord-7: #8fbcbb;
-$nord-8: #88c0d0;
-$nord-9: #81a1c1;
-$nord-10: #5e81ac;
-$nord-11: #bf616a;
-$nord-12: #d08770;
-$nord-13: #ebcb8b;
+$nord-10: #7d718c;
+$nord-11: #fb7c7c;
+$nord-12: #faa483;
+$nord-13: #faa483;
 $nord-14: #a3be8c;
-$nord-15: #b48ead;
 
 :root {
   --glasscord-titlebar: native;
@@ -41,10 +40,15 @@ $nord-15: #b48ead;
 
   --font-primary: "SF Pro Display";
   --font-display: "SF Pro Display";
+
+  --columns: 2; /* default: 3 (amount of servercolumns) */
+  --guildsize: 45; /* default: 50 (serversize in pixel) */
+  --guildgap: 3; /* default: 3 (top/bottom gap between servers in pixel) */
+  --aligndms: 0; /* default: 0 (should DMs be aligned in columns: 0 = no, 1 = yes) */
 }
 
 code {
-  font-family: "CaskaydiaCove NF" !important;
+  font-family: "SF Mono" !important;
 }
 
 .theme-dark {

@@ -1,8 +1,8 @@
 {
-  "name": "Nordic Glass",
-  "description": "A nordic discord theme with transparency",
-  "author": "Curve",
+  "name": "Purple Dark Glass",
+  "description": "A transparent Discord theme with colors from the ZorinOS purple dark theme",
+  "author": "Curve, D3SOX",
   "version": "1.0",
   "license": "MIT",
-  "theme": "noridc-glass.theme.css"
+  "theme": "purple-dark-glass.theme.css"
 }

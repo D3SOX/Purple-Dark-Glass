@@ -1,0 +1,99 @@
+/*
+ * @name Purple Dark Glass
+ * @description A transparent Discord theme with colors from the ZorinOS purple dark theme
+ * @author Curve, D3SOX
+ * @version 1.0
+ * @requires Glasscord>=0.0.5
+*/
+/* Discord Server Columns */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
+/* Settings Icons */
+@import url("https://snappercord.github.io/Settings-Icons/source.css");
+/* Codeblock icons */
+@import url("https://snappercord.github.io/codeblock-icons/dist-default.css");
+/* Replace emojis */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/JoyPixels.css");
+:root {
+  --glasscord-titlebar: native;
+  --glasscord-linux-blur: true;
+  --glasscord-win-blur: blurbehind;
+  --glasscord-win-performance-mode: true;
+  --glasscord-macos-vibrancy: fullscreen-ui;
+  --font-primary: "SF Pro Display";
+  --font-display: "SF Pro Display";
+  --columns: 2;
+  /* default: 3 (amount of servercolumns) */
+  --guildsize: 45;
+  /* default: 50 (serversize in pixel) */
+  --guildgap: 3;
+  /* default: 3 (top/bottom gap between servers in pixel) */
+  --aligndms: 0;
+  /* default: 0 (should DMs be aligned in columns: 0 = no, 1 = yes) */
+}
+
+code {
+  font-family: "SF Mono" !important;
+}
+
+.theme-dark {
+  --background-floating: #221f26 !important;
+  --background-primary: rgba(26, 24, 30, 0.4) !important;
+  --background-secondary: rgba(26, 24, 30, 0.4) !important;
+  --background-secondary-alt: rgba(26, 24, 30, 0.4) !important;
+  --brand-experiment: #7d718c !important;
+  --brand-experiment-560: #7d718c !important;
+  --brand-experiment-600: #7d718c !important;
+  --channeltextarea-background: #221f26 !important;
+  --background-tertiary: rgba(26, 24, 30, 0.4) !important;
+  --background-accent: #7d718c !important;
+  --background-modifier-active: #221f26 !important;
+  --text-normal: #d8c4f1 !important;
+  --text-danger: #fb7c7c !important;
+  --text-warning: #faa483 !important;
+  --text-positive: #a3be8c !important;
+  --header-primary: #e5e9f0 !important;
+  --header-secondary: #eceff4 !important;
+  --background-modifier-hover: #221f26 !important;
+  --background-modifier-accent: #302b36 !important;
+  --background-modifier-selected: #302b36 !important;
+  --background-mentioned: rgba(250, 164, 131, 0.1) !important;
+  --background-mentioned-hover: rgba(250, 164, 131, 0.11) !important;
+}
+
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx,
+.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
+  background-color: rgba(163, 190, 140, 0.8) !important;
+}
+
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
+.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
+  background-color: #a3be8c !important;
+}
+
+.container-2cd8Mz {
+  background-color: transparent !important;
+}
+
+.messagesPopout-eVzQcI,
+.header-1w9Q93,
+.header-11eigE,
+.categoryList-2qRrlj,
+.contentWrapper-3vHNP2,
+#emoji-picker-grid,
+#popout_4187 {
+  background-color: #221f26 !important;
+}
+
+.callContainer-HtHELf,
+.wrapper-1gVUIN,
+.minimum-fXpVNc {
+  background-color: rgba(26, 24, 30, 0.2) !important;
+}
+
+.theme-dark .root-g14mjS {
+  background-color: #1a181e !important;
+}
+
+.theme-dark .footer-31IekZ {
+  background-color: #221f26 !important;
+}
