@@ -2,7 +2,7 @@
 
 <h2> 🔮 Purple Dark Glass 🔮 </h2>
 
-A Discord theme inspired by the colors from the ZorinOS purple dark theme with transparency in mind!
+A Discord theme inspired by the colors from the [ZorinOS purple dark theme](https://github.com/ZorinOS/zorin-desktop-themes/tree/master/ZorinPurple-Dark) with transparency in mind!
 
 <img src="assets/screenshot.png">
 
