@@ -60,11 +60,6 @@ code {
   --background-mentioned-hover: rgba(250, 164, 131, 0.11) !important;
 }
 
-.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx,
-.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
-  background-color: rgba(163, 190, 140, 0.8) !important;
-}
-
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
 .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
   background-color: #a3be8c !important;
@@ -80,7 +75,12 @@ code {
 .categoryList-2qRrlj,
 .contentWrapper-3vHNP2,
 #emoji-picker-grid,
-#popout_4187 {
+#popout_4187,
+.inspector-DFKXwB,
+.inspector-2A2Chb,
+.container-18GwIk,
+.footer-5ji8u1,
+.recentMentionsPopout-2bI1ZN {
   background-color: #221f26 !important;
 }
 
