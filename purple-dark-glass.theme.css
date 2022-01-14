@@ -10,6 +10,9 @@
 /* Settings Icons */
 @import url("https://crearts-community.github.io/Settings-Icons/src/source.css");
 @import url("https://crearts-community.github.io/Settings-Icons/modules/plugins/powercord.css");
+/* ContextMenu Icons */
+@import url("https://crearts-community.github.io/Context-Icons/theme.css");
+@import url("https://crearts-community.github.io/Context-Icons/modules/plugins/powercord.css");
 /* Codeblock icons */
 @import url("https://snappercord.github.io/codeblock-icons/dist-default.css");
 /* Replace emojis */
