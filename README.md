@@ -44,3 +44,4 @@ You can find the transparency setting under:
 - Plasma color theme: [Purple Dark Plasma Colors](https://github.com/D3SOX/Purple-Dark-Plasma-Colors)
 - VSCode theme: [SynthWave '84](https://github.com/robb0wen/synthwave-vscode)
 - GTK theme: [ZorinOS purple dark theme](https://github.com/ZorinOS/zorin-desktop-themes/tree/master/ZorinPurple-Dark)
+- Spotify theme: [Ziro](https://github.com/schnensch0/ziro/tree/main/preview#purple-dark)
