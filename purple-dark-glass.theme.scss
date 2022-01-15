@@ -43,8 +43,8 @@ $nord-14: #a3be8c;
   --glasscord-win-performance-mode: true;
   --glasscord-macos-vibrancy: fullscreen-ui;
 
-  --font-primary: "SF Pro Display";
-  --font-display: "SF Pro Display";
+  --font-primary: "SF Pro Display", sans-serif;
+  --font-display: "SF Pro Display", sans-serif;
 
   --columns: 2; /* default: 3 (amount of servercolumns) */
   --guildsize: 45; /* default: 50 (serversize in pixel) */
