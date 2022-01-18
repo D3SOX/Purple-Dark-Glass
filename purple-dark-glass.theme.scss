@@ -93,6 +93,11 @@ code {
   --scrollbar-auto-track: #{$nord-0} !important;
 }
 
+.panels-3wFtMD // Change Background color in user area to be transparent
+{
+  --background-secondary-alt: #{transparentize($nord-0, 0.6)} !important;
+}
+
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx,
 .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
   // Screen Share Button when active
