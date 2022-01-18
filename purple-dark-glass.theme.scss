@@ -109,20 +109,15 @@ code {
   background-color: transparent !important;
 }
 
-.messagesPopout-eVzQcI,
-.header-1w9Q93,
-.header-11eigE,
-.categoryList-2qRrlj,
-.contentWrapper-3vHNP2,
-#emoji-picker-grid,
-#popout_4187,
-.inspector-DFKXwB,
-.inspector-2A2Chb,
-.container-18GwIk,
-.footer-5ji8u1,
-.recentMentionsPopout-2bI1ZN,
-.diversitySelectorOptions-3DhNYs,
-.diversitySelectorOptionsInExpressionPicker-3wybQR {
+.contentWrapper-3vHNP2, // Background for normal emoji picker which shows "GIFS, Stickers, Emojis"
+.unicodeShortcut-3N8oDe, // Small emoji icon in the bottom left in the emoji picker
+.header-1ULbqO, // Headers such as "Frequently used" in the emoji picker
+.emojiPicker-6YCk8a, //Background for the reactions emoji picker
+.messagesPopout-eVzQcI, // Pinned messages
+#popout_56, // Pinned messages
+.recentMentionsPopout-2bI1ZN, // Despite the name, responsible for Unread messages background
+#popout_54 // Threads background
+{
   // Remove transparency from emoji-picker, pinned messages and inbox
   background-color: $nord-1 !important;
 }
@@ -138,9 +133,13 @@ code {
 
 .callContainer-HtHELf,
 .wrapper-1gVUIN,
-.minimum-fXpVNc,
+.minimum-fXpVNc {
+  // Call Background
+  background-color: transparentize($nord-0, 0.8) !important;
+}
+
 .pageWrapper-2PwDoS {
-  // Call Background + Explore Page
+  // Explore Page
   background-color: transparentize($nord-0, 0.8) !important;
 }
 

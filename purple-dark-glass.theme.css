@@ -81,20 +81,14 @@ code {
   background-color: transparent !important;
 }
 
-.messagesPopout-eVzQcI,
-.header-1w9Q93,
-.header-11eigE,
-.categoryList-2qRrlj,
 .contentWrapper-3vHNP2,
-#emoji-picker-grid,
-#popout_4187,
-.inspector-DFKXwB,
-.inspector-2A2Chb,
-.container-18GwIk,
-.footer-5ji8u1,
+.unicodeShortcut-3N8oDe,
+.header-1ULbqO,
+.emojiPicker-6YCk8a,
+.messagesPopout-eVzQcI,
+#popout_56,
 .recentMentionsPopout-2bI1ZN,
-.diversitySelectorOptions-3DhNYs,
-.diversitySelectorOptionsInExpressionPicker-3wybQR {
+#popout_54 {
   background-color: #221f26 !important;
 }
 
@@ -108,7 +102,10 @@ code {
 
 .callContainer-HtHELf,
 .wrapper-1gVUIN,
-.minimum-fXpVNc,
+.minimum-fXpVNc {
+  background-color: rgba(26, 24, 30, 0.2) !important;
+}
+
 .pageWrapper-2PwDoS {
   background-color: rgba(26, 24, 30, 0.2) !important;
 }
