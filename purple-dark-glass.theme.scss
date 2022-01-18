@@ -87,6 +87,9 @@ code {
 
   --background-mentioned: #{transparentize($nord-12, 0.9)} !important;
   --background-mentioned-hover: #{transparentize($nord-12, 0.89)} !important;
+
+  --scrollbar-auto-thumb: #{$nord-1} !important;
+  --scrollbar-auto-track: #{$nord-0} !important;
 }
 
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,

@@ -63,6 +63,8 @@ code {
   --background-modifier-selected: #302b36 !important;
   --background-mentioned: rgba(250, 164, 131, 0.1) !important;
   --background-mentioned-hover: rgba(250, 164, 131, 0.11) !important;
+  --scrollbar-auto-thumb: #221f26 !important;
+  --scrollbar-auto-track: #1a181e !important;
 }
 
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
