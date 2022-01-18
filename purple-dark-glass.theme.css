@@ -5,17 +5,12 @@
  * @version 1.0
  * @requires Glasscord>=0.0.5
 */
-/* Discord Server Columns */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
-/* Settings Icons */
 @import url("https://crearts-community.github.io/Settings-Icons/src/source.css");
 @import url("https://crearts-community.github.io/Settings-Icons/modules/plugins/powercord.css");
-/* ContextMenu Icons */
 @import url("https://crearts-community.github.io/Context-Icons/theme.css");
 @import url("https://crearts-community.github.io/Context-Icons/modules/plugins/powercord.css");
-/* Codeblock icons */
 @import url("https://snappercord.github.io/codeblock-icons/dist-default.css");
-/* Replace emojis */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/JoyPixels.css");
 :root {
   --glasscord-titlebar: native;
@@ -26,13 +21,9 @@
   --font-primary: "SF Pro Display", sans-serif;
   --font-display: "SF Pro Display", sans-serif;
   --columns: 2;
-  /* default: 3 (amount of servercolumns) */
   --guildsize: 45;
-  /* default: 50 (serversize in pixel) */
   --guildgap: 3;
-  /* default: 3 (top/bottom gap between servers in pixel) */
   --aligndms: 0;
-  /* default: 0 (should DMs be aligned in columns: 0 = no, 1 = yes) */
 }
 
 code {
