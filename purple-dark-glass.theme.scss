@@ -30,6 +30,7 @@ $nord-3: #7d718c;
 $nord-4: #d8c4f1;
 $nord-5: #e5e9f0;
 $nord-6: #eceff4;
+$nord-9: #4e3e72;
 $nord-10: #7d718c;
 $nord-11: #fb7c7c;
 $nord-12: #faa483;
@@ -64,9 +65,9 @@ code {
   --background-secondary: #{transparentize($nord-0, 0.6)} !important;
   --background-secondary-alt: #{$nord-0} !important;
 
-  --brand-experiment: #{$nord-10} !important;
-  --brand-experiment-560: #{$nord-10} !important;
-  --brand-experiment-600: #{$nord-10} !important;
+  --brand-experiment: #{$nord-9} !important;
+  --brand-experiment-560: #{$nord-9} !important;
+  --brand-experiment-600: #{$nord-9} !important;
 
   --channeltextarea-background: #{$nord-1} !important;
   --background-tertiary: #{transparentize($nord-0, 0.6)} !important;
