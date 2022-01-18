@@ -105,6 +105,11 @@ code {
   background-color: $nord-14 !important;
 }
 
+.outer-2JOHae.interactive-2zD88a:hover // Friends List "Active Now" hover
+{
+  background-color: $nord-2 !important;
+}
+
 .container-2cd8Mz {
   // Adjust the friends list
   background-color: transparent !important;
@@ -117,7 +122,8 @@ code {
 .messagesPopout-eVzQcI, // Pinned messages
 #popout_56, // Pinned messages
 .recentMentionsPopout-2bI1ZN, // Despite the name, responsible for Unread messages background
-#popout_54 // Threads background
+#popout_54, // Threads background
+.section-3G9aLW // Activities in the friend list
 {
   // Remove transparency from emoji-picker, pinned messages and inbox
   background-color: $nord-1 !important;
