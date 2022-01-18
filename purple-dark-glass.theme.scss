@@ -62,7 +62,7 @@ code {
   --background-floating: #{$nord-1} !important;
   --background-primary: #{transparentize($nord-0, 0.6)} !important;
   --background-secondary: #{transparentize($nord-0, 0.6)} !important;
-  --background-secondary-alt: #{transparentize($nord-0, 0.6)} !important;
+  --background-secondary-alt: #{$nord-0} !important;
 
   --brand-experiment: #{$nord-10} !important;
   --brand-experiment-560: #{$nord-10} !important;
@@ -81,7 +81,7 @@ code {
   --header-primary: #{$nord-5} !important;
   --header-secondary: #{$nord-6} !important;
 
-  --background-modifier-hover: #{$nord-1} !important;
+  --background-modifier-hover: #{$nord-2} !important;
   --background-modifier-accent: #{$nord-2} !important;
   --background-modifier-selected: #{$nord-2} !important;
 
@@ -92,8 +92,15 @@ code {
   --scrollbar-auto-track: #{$nord-0} !important;
 }
 
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx,
+.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
+  // Screen Share Button when active
+  background-color: #{transparentize($nord-14, 0.2)} !important;
+}
+
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
 .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
+  // Screen Share Button when active and hovered
   background-color: $nord-14 !important;
 }
 
@@ -118,6 +125,15 @@ code {
 .diversitySelectorOptionsInExpressionPicker-3wybQR {
   // Remove transparency from emoji-picker, pinned messages and inbox
   background-color: $nord-1 !important;
+}
+
+.channelHeader-DFRX8q {
+  // Inbox Header
+  background-color: $nord-1 !important;
+}
+.messageContainer-3VTXBC {
+  // Inbox Message Container
+  background-color: $nord-2 !important;
 }
 
 .callContainer-HtHELf,

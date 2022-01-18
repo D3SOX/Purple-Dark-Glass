@@ -44,7 +44,7 @@ code {
   --background-floating: #221f26 !important;
   --background-primary: rgba(26, 24, 30, 0.4) !important;
   --background-secondary: rgba(26, 24, 30, 0.4) !important;
-  --background-secondary-alt: rgba(26, 24, 30, 0.4) !important;
+  --background-secondary-alt: #1a181e !important;
   --brand-experiment: #7d718c !important;
   --brand-experiment-560: #7d718c !important;
   --brand-experiment-600: #7d718c !important;
@@ -58,13 +58,18 @@ code {
   --text-positive: #a3be8c !important;
   --header-primary: #e5e9f0 !important;
   --header-secondary: #eceff4 !important;
-  --background-modifier-hover: #221f26 !important;
+  --background-modifier-hover: #302b36 !important;
   --background-modifier-accent: #302b36 !important;
   --background-modifier-selected: #302b36 !important;
   --background-mentioned: rgba(250, 164, 131, 0.1) !important;
   --background-mentioned-hover: rgba(250, 164, 131, 0.11) !important;
   --scrollbar-auto-thumb: #221f26 !important;
   --scrollbar-auto-track: #1a181e !important;
+}
+
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx,
+.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
+  background-color: rgba(163, 190, 140, 0.8) !important;
 }
 
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
@@ -91,6 +96,14 @@ code {
 .diversitySelectorOptions-3DhNYs,
 .diversitySelectorOptionsInExpressionPicker-3wybQR {
   background-color: #221f26 !important;
+}
+
+.channelHeader-DFRX8q {
+  background-color: #221f26 !important;
+}
+
+.messageContainer-3VTXBC {
+  background-color: #302b36 !important;
 }
 
 .callContainer-HtHELf,
