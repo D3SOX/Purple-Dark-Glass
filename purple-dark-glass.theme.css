@@ -39,7 +39,8 @@ code {
   font-family: "SF Mono", monospace !important;
 }
 
-.theme-dark {
+.theme-dark,
+.theme-light {
   --background-floating: #221f26 !important;
   --background-primary: rgba(26, 24, 30, 0.4) !important;
   --background-secondary: rgba(26, 24, 30, 0.4) !important;
@@ -84,13 +85,16 @@ code {
 .inspector-2A2Chb,
 .container-18GwIk,
 .footer-5ji8u1,
-.recentMentionsPopout-2bI1ZN {
+.recentMentionsPopout-2bI1ZN,
+.diversitySelectorOptions-3DhNYs,
+.diversitySelectorOptionsInExpressionPicker-3wybQR {
   background-color: #221f26 !important;
 }
 
 .callContainer-HtHELf,
 .wrapper-1gVUIN,
-.minimum-fXpVNc {
+.minimum-fXpVNc,
+.pageWrapper-2PwDoS {
   background-color: rgba(26, 24, 30, 0.2) !important;
 }
 
