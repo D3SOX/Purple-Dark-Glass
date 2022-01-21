@@ -126,19 +126,11 @@ code {
 .emojiPicker-6YCk8a, //Background for the reactions emoji picker
 .messagesPopout-eVzQcI, // Pinned messages
 .recentMentionsPopout-2bI1ZN, // Despite the name, responsible for Unread messages background
-*[id^='popout_'], // Threads background, Pinned messages
+*[id^="popout_"], // Threads background, Pinned messages
 .section-3G9aLW // Activities in the friend list
 {
   // Remove transparency from emoji-picker, pinned messages and inbox
-  background-color: $nord-1 !important;
-}
-
-.channelHeader-DFRX8q {
-  // Inbox Header
-  background-color: $nord-1 !important;
-}
-.messageContainer-3VTXBC {
-  // Inbox Message Container
+  --background-secondary: #{$nord-1} !important;
   background-color: $nord-2 !important;
 }
 

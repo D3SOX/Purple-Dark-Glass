@@ -88,14 +88,7 @@ code {
 .recentMentionsPopout-2bI1ZN,
 *[id^=popout_],
 .section-3G9aLW {
-  background-color: #221f26 !important;
-}
-
-.channelHeader-DFRX8q {
-  background-color: #221f26 !important;
-}
-
-.messageContainer-3VTXBC {
+  --background-secondary: #221f26 !important;
   background-color: #302b36 !important;
 }
 
