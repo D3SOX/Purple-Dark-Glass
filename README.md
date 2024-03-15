@@ -19,7 +19,10 @@ Select a transparency option inside Vesktop settings
 ## 🐧 Linux
 
 Run this in the console (<kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>I</kbd>)
-`Vesktop.Settings.store.transparencyOption = 'yes'` and fully restart Vesktop.
+```js
+Vesktop.Settings.store.transparencyOption = 'yes'
+```
+then fully restart Vesktop.
 
 > [!IMPORTANT]  
 > You now have to make sure your compositor also blurs the window. Solutions that I'm aware of:
