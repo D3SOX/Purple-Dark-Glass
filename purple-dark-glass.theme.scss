@@ -22,8 +22,8 @@ $nord-14: #a3be8c;
 .theme-dark,
 {
   --background-floating: #{$nord-1} !important;
-  --background-primary: #{transparentize($nord-0, 0.6)} !important;
-  --background-secondary: #{transparentize($nord-0, 0.6)} !important;
+  --background-primary: #{transparentize($nord-0, 0.8)} !important;
+  --background-secondary: #{transparentize($nord-0, 0.8)} !important;
   --background-secondary-alt: #{$nord-0} !important;
 
   --brand-experiment: #{$nord-9} !important; // Default
@@ -31,7 +31,7 @@ $nord-14: #a3be8c;
   --brand-experiment-600: #{transparentize($nord-9, 0.5)} !important; // Pressed
 
   --channeltextarea-background: #{$nord-1} !important;
-  --background-tertiary: #{transparentize($nord-0, 0.6)} !important;
+  --background-tertiary: #{transparentize($nord-0, 0.8)} !important;
 
   --background-accent: #{$nord-3} !important;
   --background-modifier-active: #{$nord-1} !important;
@@ -56,7 +56,7 @@ $nord-14: #a3be8c;
 
 [class*="sidebar_"] [class*="panels__"] // Change Background color in user area to be transparent
 {
-  --background-secondary-alt: #{transparentize($nord-0, 0.6)} !important;
+  --background-secondary-alt: #{transparentize($nord-0, 0.2)} !important;
 }
 
 [class*="button_"][class*="buttonColor_"][class*="buttonActive"],
