@@ -5,6 +5,11 @@
 A Discord theme inspired by the colors from the [ZorinOS purple dark theme](https://github.com/ZorinOS/zorin-desktop-themes/tree/master/ZorinPurple-Dark) with transparency in mind!
 
 <img src="assets/screenshot.png">
+<sup>Screenshot is a bit outdated. The theme no longer includes custom fonts, server columns and emojis</sup>
+<sub>
+
+Use [complementary-discord-theme](https://github.com/D3SOX/complementary-discord-theme) for that
+</sub>
 
 </div>
 
