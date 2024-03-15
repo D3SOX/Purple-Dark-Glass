@@ -19,8 +19,7 @@ $nord-12: #faa483;
 $nord-13: #faa483;
 $nord-14: #a3be8c;
 
-.theme-dark,
-{
+.theme-dark {
   --background-floating: #{$nord-1} !important;
   --background-primary: #{transparentize($nord-0, 0.8)} !important;
   --background-secondary: #{transparentize($nord-0, 0.8)} !important;
