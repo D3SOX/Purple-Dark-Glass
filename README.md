@@ -10,18 +10,22 @@ A Discord theme inspired by the colors from the [ZorinOS purple dark theme](http
 
 # 🔍 Transparency
 
-If you use Powercord it is recommended to enable transparency.  
-You can find the transparency setting under:
+It is recommended to use [Vesktop](https://github.com/Vencord/Vesktop) as it currently supports setting the window to transparent
 
-- User Settings
-  - Powercord: General Settings
-    - Advanced Settings
-      - Transparent Window
+## 🪟 Windows
 
-# ❕ Required Fonts
+Select a transparency option inside Vesktop settings
 
-- [SF Pro Display](https://developer.apple.com/fonts/)
-- [SF Mono](https://developer.apple.com/fonts/) _(For codeblocks)_
+## 🐧 Linux
+
+Run this in the console (<kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>I</kbd>)
+`Vesktop.Settings.store.transparencyOption = 'yes'` and fully restart Vesktop.
+
+> [!IMPORTANT]  
+> You now have to make sure your compositor also blurs the window. Solutions that I'm aware of:
+> 
+> [Force Blur Script for KDE Plasma 5](https://github.com/esjeon/kwin-forceblur)  
+> [Force Blur Effect for KDE Plasma 6](https://github.com/taj-ny/kwin-forceblur)
 
 # ⚠️ Notes
 
@@ -29,11 +33,18 @@ You can find the transparency setting under:
 
 # 📥 Installation
 
-- BetterDiscord
+- [Vencord](https://github.com/Vendicated/Vencord)
+  - Open settings, click on Themes under Vencord then click on Online Themes
+  - Add a new line with this content: `https://d3sox.me/Purple-Dark-Glass/purple-dark-glass.theme.css`
+- [OpenAsar](https://github.com/GooseMod/OpenAsar)
+  - Open settings, scroll to the bottom on the left and click on the OpenAsar version, then click on Theming
+  - Add a new line with this content: `@import url(https://d3sox.me/Purple-Dark-Glass/purple-dark-glass.theme.css);`
 
-  - Drop the <kbd>purple-dark-glass.theme.css</kbd> in your themes folder (⚠️ You won't get updates)
+- [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
 
-- Powercord
+  - Drop the [`purple-dark-glass.betterdiscord.theme.css`](https://raw.githubusercontent.com/D3SOX/Purple-Dark-Glass/master/purple-dark-glass.betterdiscord.theme.css) in your themes folder
+
+- [Replugged](https://github.com/replugged-org/replugged)
   - Open your themes folder and clone this repository
     ```sh
     git clone https://github.com/D3SOX/Purple-Dark-Glass

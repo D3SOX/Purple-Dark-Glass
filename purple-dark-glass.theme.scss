@@ -2,26 +2,8 @@
  * @name Purple Dark Glass
  * @description A transparent Discord theme with colors from the ZorinOS purple dark theme
  * @author Curve, D3SOX
- * @version 1.0
- * @requires Glasscord>=0.0.5
+ * @version 2.0
 */
-
-// Discord Server Columns
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
-
-// Settings Icons
-@import url("https://crearts-community.github.io/Settings-Icons/src/source.css");
-@import url("https://crearts-community.github.io/Settings-Icons/modules/plugins/powercord.css");
-
-// ContextMenu Icons
-@import url("https://crearts-community.github.io/Context-Icons/theme.css");
-@import url("https://crearts-community.github.io/Context-Icons/modules/plugins/powercord.css");
-
-// Codeblock icons
-@import url("https://snappercord.github.io/codeblock-icons/dist-default.css");
-
-// Replace emojis
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/JoyPixels.css");
 
 $nord-0: #1a181e;
 $nord-1: #221f26;
@@ -37,28 +19,7 @@ $nord-12: #faa483;
 $nord-13: #faa483;
 $nord-14: #a3be8c;
 
-:root {
-  --glasscord-titlebar: native;
-  --glasscord-linux-blur: true;
-  --glasscord-win-blur: blurbehind;
-  --glasscord-win-performance-mode: true;
-  --glasscord-macos-vibrancy: fullscreen-ui;
-
-  --font-primary: "SF Pro Display", sans-serif;
-  --font-display: "SF Pro Display", sans-serif;
-
-  --columns: 2; // default: 3 (amount of servercolumns)
-  --guildsize: 45; // default: 50 (serversize in pixel)
-  --guildgap: 3; // default: 3 (top/bottom gap between servers in pixel)
-  --aligndms: 0; // default: 0 (should DMs be aligned in columns: 0 = no, 1 = yes)
-}
-
-code {
-  font-family: "SF Mono", monospace !important;
-}
-
 .theme-dark,
-.theme-light // We also apply this to the light theme to fix the "Create Server" Modal
 {
   --background-floating: #{$nord-1} !important;
   --background-primary: #{transparentize($nord-0, 0.6)} !important;
@@ -93,64 +54,59 @@ code {
   --scrollbar-auto-track: #{$nord-0} !important;
 }
 
-.panels-3wFtMD // Change Background color in user area to be transparent
+[class*="sidebar_"] [class*="panels__"] // Change Background color in user area to be transparent
 {
   --background-secondary-alt: #{transparentize($nord-0, 0.6)} !important;
 }
 
-.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx,
-.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
+[class*="button_"][class*="buttonColor_"][class*="buttonActive"],
+[class*="button_"] [class*="buttonColor_"][class*="buttonActive"] {
   // Screen Share Button when active
   background-color: #{transparentize($nord-14, 0.2)} !important;
 }
 
-.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
-.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
+[class*="button_"][class*="buttonColor_"][class*="buttonActive"]:hover,
+[class*="button_"] [class*="buttonColor_"][class*="buttonActive"]:hover {
   // Screen Share Button when active and hovered
   background-color: $nord-14 !important;
 }
 
-.outer-2JOHae.interactive-2zD88a:hover // Friends List "Active Now" hover
-{
-  background-color: $nord-2 !important;
-}
-
-.container-2cd8Mz {
+[class*="sidebar_"]:has([class*="privateChannels__"]),
+[class*="privateChannels__"] [class*="content_"] {
   // Adjust the friends list
   background-color: transparent !important;
 }
 
-.contentWrapper-3vHNP2, // Background for normal emoji picker which shows "GIFS, Stickers, Emojis"
-.unicodeShortcut-3N8oDe, // Small emoji icon in the bottom left in the emoji picker
-.header-1ULbqO, // Headers such as "Frequently used" in the emoji picker
-.emojiPicker-6YCk8a, //Background for the reactions emoji picker
-.messagesPopout-eVzQcI, // Pinned messages
-.recentMentionsPopout-2bI1ZN, // Despite the name, responsible for Unread messages background
+[class*="contentWrapper__"], // Background for normal emoji picker which shows "GIFS, Stickers, Emojis"
+[class*="unicodeShortcut__"], // Small emoji icon in the bottom left in the emoji picker
+[class*="categorySection_"] [class*="header_"], // Headers such as "Frequently used" in the emoji picker
+#emoji-picker-tab-panel [class*="emojiPicker_"], // Background for the reactions emoji picker
+#emoji-picker-tab-panel [class*="header__"], // Background for the reactions emoji picker header
+[class*="messagesPopoutWrap_"] , // Pinned messages
+[class*="recentMentionsPopout_"], // Despite the name, responsible for Unread messages background
 *[id^="popout_"], // Threads background, Pinned messages
-.section-3G9aLW // Activities in the friend list
+[class*="itemCard__"] [class*="section_"] // Activities in the friend list
 {
   // Remove transparency from emoji-picker, pinned messages and inbox
   --background-secondary: #{$nord-1} !important;
   background-color: $nord-2 !important;
 }
 
-.callContainer-HtHELf,
-.wrapper-1gVUIN,
-.minimum-fXpVNc {
+[class*="chat__"] [class*="wrapper_"][class*="minimum_"]:has([class*="callContainer_"]) {
   // Call Background
   background-color: transparentize($nord-0, 0.8) !important;
 }
 
-.pageWrapper-2PwDoS {
+[class*="pageWrapper_"]:has([class*="guildListSection__"]) {
   // Explore Page
   background-color: transparentize($nord-0, 0.8) !important;
 }
 
-.theme-dark .root-g14mjS {
+.theme-dark [class*="layerContainer_"] [class*="root_"] {
   // Screen-Share Modal Body
   background-color: $nord-0 !important;
 }
-.theme-dark .footer-31IekZ {
+.theme-dark [class*="layerContainer_"] [class*="footer_"] {
   // Screen-Share Modal Footer
   background-color: $nord-1 !important;
 }

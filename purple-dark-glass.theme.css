@@ -2,36 +2,9 @@
  * @name Purple Dark Glass
  * @description A transparent Discord theme with colors from the ZorinOS purple dark theme
  * @author Curve, D3SOX
- * @version 1.0
- * @requires Glasscord>=0.0.5
+ * @version 2.0
 */
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
-@import url("https://crearts-community.github.io/Settings-Icons/src/source.css");
-@import url("https://crearts-community.github.io/Settings-Icons/modules/plugins/powercord.css");
-@import url("https://crearts-community.github.io/Context-Icons/theme.css");
-@import url("https://crearts-community.github.io/Context-Icons/modules/plugins/powercord.css");
-@import url("https://snappercord.github.io/codeblock-icons/dist-default.css");
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/JoyPixels.css");
-:root {
-  --glasscord-titlebar: native;
-  --glasscord-linux-blur: true;
-  --glasscord-win-blur: blurbehind;
-  --glasscord-win-performance-mode: true;
-  --glasscord-macos-vibrancy: fullscreen-ui;
-  --font-primary: "SF Pro Display", sans-serif;
-  --font-display: "SF Pro Display", sans-serif;
-  --columns: 2;
-  --guildsize: 45;
-  --guildgap: 3;
-  --aligndms: 0;
-}
-
-code {
-  font-family: "SF Mono", monospace !important;
-}
-
-.theme-dark,
-.theme-light {
+.theme-dark {
   --background-floating: #221f26 !important;
   --background-primary: rgba(26, 24, 30, 0.4) !important;
   --background-secondary: rgba(26, 24, 30, 0.4) !important;
@@ -58,54 +31,50 @@ code {
   --scrollbar-auto-track: #1a181e !important;
 }
 
-.panels-3wFtMD {
+[class*=sidebar_] [class*=panels__] {
   --background-secondary-alt: rgba(26, 24, 30, 0.4) !important;
 }
 
-.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx,
-.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
+[class*=button_][class*=buttonColor_][class*=buttonActive],
+[class*=button_] [class*=buttonColor_][class*=buttonActive] {
   background-color: rgba(163, 190, 140, 0.8) !important;
 }
 
-.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
-.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
+[class*=button_][class*=buttonColor_][class*=buttonActive]:hover,
+[class*=button_] [class*=buttonColor_][class*=buttonActive]:hover {
   background-color: #a3be8c !important;
 }
 
-.outer-2JOHae.interactive-2zD88a:hover {
-  background-color: #302b36 !important;
-}
-
-.container-2cd8Mz {
+[class*=sidebar_]:has([class*=privateChannels__]),
+[class*=privateChannels__] [class*=content_] {
   background-color: transparent !important;
 }
 
-.contentWrapper-3vHNP2,
-.unicodeShortcut-3N8oDe,
-.header-1ULbqO,
-.emojiPicker-6YCk8a,
-.messagesPopout-eVzQcI,
-.recentMentionsPopout-2bI1ZN,
+[class*=contentWrapper__],
+[class*=unicodeShortcut__],
+[class*=categorySection_] [class*=header_],
+#emoji-picker-tab-panel [class*=emojiPicker_],
+#emoji-picker-tab-panel [class*=header__],
+[class*=messagesPopoutWrap_],
+[class*=recentMentionsPopout_],
 *[id^=popout_],
-.section-3G9aLW {
+[class*=itemCard__] [class*=section_] {
   --background-secondary: #221f26 !important;
   background-color: #302b36 !important;
 }
 
-.callContainer-HtHELf,
-.wrapper-1gVUIN,
-.minimum-fXpVNc {
+[class*=chat__] [class*=wrapper_][class*=minimum_]:has([class*=callContainer_]) {
   background-color: rgba(26, 24, 30, 0.2) !important;
 }
 
-.pageWrapper-2PwDoS {
+[class*=pageWrapper_]:has([class*=guildListSection__]) {
   background-color: rgba(26, 24, 30, 0.2) !important;
 }
 
-.theme-dark .root-g14mjS {
+.theme-dark [class*=layerContainer_] [class*=root_] {
   background-color: #1a181e !important;
 }
 
-.theme-dark .footer-31IekZ {
+.theme-dark [class*=layerContainer_] [class*=footer_] {
   background-color: #221f26 !important;
 }
