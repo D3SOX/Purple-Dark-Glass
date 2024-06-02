@@ -9,9 +9,9 @@
   --background-primary: rgba(26, 24, 30, 0.2) !important;
   --background-secondary: rgba(26, 24, 30, 0.2) !important;
   --background-secondary-alt: #1a181e !important;
-  --brand-experiment: #4e3e72 !important;
-  --brand-experiment-560: rgba(78, 62, 114, 0.8) !important;
-  --brand-experiment-600: rgba(78, 62, 114, 0.5) !important;
+  --brand-500: #4e3e72 !important;
+  --brand-560: rgba(78, 62, 114, 0.8) !important;
+  --brand-600: rgba(78, 62, 114, 0.5) !important;
   --channeltextarea-background: #221f26 !important;
   --background-tertiary: rgba(26, 24, 30, 0.2) !important;
   --background-accent: #7d718c !important;

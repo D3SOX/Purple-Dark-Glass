@@ -25,9 +25,9 @@ $nord-14: #a3be8c;
   --background-secondary: #{transparentize($nord-0, 0.8)} !important;
   --background-secondary-alt: #{$nord-0} !important;
 
-  --brand-experiment: #{$nord-9} !important; // Default
-  --brand-experiment-560: #{transparentize($nord-9, 0.2)} !important; // Hover
-  --brand-experiment-600: #{transparentize($nord-9, 0.5)} !important; // Pressed
+  --brand-500: #{$nord-9} !important; // Default
+  --brand-560: #{transparentize($nord-9, 0.2)} !important; // Hover
+  --brand-600: #{transparentize($nord-9, 0.5)} !important; // Pressed
 
   --channeltextarea-background: #{$nord-1} !important;
   --background-tertiary: #{transparentize($nord-0, 0.8)} !important;
